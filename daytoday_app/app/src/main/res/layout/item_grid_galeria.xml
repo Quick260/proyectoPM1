@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/medioBajo">
+
+        <ImageView
+            android:id="@+id/imagen_recy"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:paddingTop="5dp"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:src="@drawable/logo_daytoday_fondo_blanco"
+            />
+
+        <TextView
+            android:id="@+id/txt_recy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prueba"
+            android:layout_gravity="center"
+            android:fontFamily="@font/pacifico_regular"
+            android:textSize="20dp"
+            style="@style/Widget.AppTheme.TextView.Titulos"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">Day to day</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="viewPager1">Ingresar</string>
+    <string name="viewPager2">Crear cuenta</string>
+
+    <!--Botones-->
+    <string name="btnIniciarsesion">Iniciar sesión</string>
+    <string name="btnCreaCuenta">Unirme</string>
+    <string name="btnSubir">Subir</string>
+    <string name="btnLlamar">Llamar</string>
+    <string name="btnEliminar">Borrar</string>
+    <string name="btnEditar">Editar</string>
+
+    <!--Titulos-->
+    <string name="bienvenida">Bienvenido</string>
+    <string name="galeria">Galería</string>
+    <string name="subirDibujo">Agregar a la coleccion</string>
+    <string name="edit">Editando Obra</string>
+
+    <!--Formularios-->
+    <string name="name">Nombre</string>
+    <string name="apellidop">Apellido paterno</string>
+    <string name="apellidom">Apellido materno</string>
+    <string name="apodo">Apodo</string>
+    <string name="correo">Correo</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="confcontra">Confirme la contraseña</string>
+    <string name="cumple">Dia de nacimiento</string>
+    <string name="requerido">Requerido </string>
+    <string name="prefixFormDate">dd/mm/yyyy</string>
+
+    <!--Formulario subir foto-->
+    <string name="tipoArt">Arte</string>
+    <string name="fecha">Fecha</string>
+    <string name="descripcion">Descripción</string>
+    <string name="nota">Nota: Tome la foto en formato horizontal</string>
+
+    <!--Menu-->
+    <string name="verPerfil">Ver perfil</string>
+    <string name="contacMe">Informacion del programador</string>
+
+    <!--Array tipos de arte-->
+    <string-array name="Artes">
+        <item>Lapiz</item>
+        <item>Tinta</item>
+        <item>Poema</item>
+        <item>Pintura al oleo</item>
+        <item>Escultura</item>
+        <item>Acuarelas</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string name="prueba">Texto prueba</string>
+
+    <!--Info programador-->
+    <string name="infoName">Enrique Romero Castro</string>
+    <string name="infoTel">3332325275</string>
+    <string name="infoEscuela">Centro De Enseñanza Tecnica Industrial</string>
+    <string name="infoCurso">6toF</string>
+
+</resources>
